@@ -1,0 +1,147 @@
+/* H1 Head */
+
+  fontWeight: 700,
+  fontSize: "60px",
+  lineHeight: "71px"
+  letterSpacing: "-0.5px"
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+
+/* H2 Headline */
+
+  fontWeight: 500,
+  fontSize: "48px",
+  lineHeight: "57px"
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+
+/* H3 Headline */
+
+  fontWeight: 500,
+  fontSize: "34px",
+  lineHeight: "40px",
+  letterSpacing: "0.25px"
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* H4 Headline */
+
+  fontWeight: 400,
+  fontSize: "24px",
+  lineHeight: "32px"
+
+/* Text Dark */
+color: #212121,
+
+
+———————————————————————————————————————————————————————————
+/* H5 Headline */
+
+  fontWeight: 500,
+  fontSize: "20px",
+  lineHeight: "24px",
+  letterSpacing: "0.15px"
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* Subtitule 1 */
+
+  fontWeight: 500,
+  fontSize: "16px",
+  lineHeight: "20px",
+  letterSpacing: "0.15px"
+
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* Subtitule 2 */
+
+  fontWeight: 500,
+  fontSize: "14px",
+  lineHeight: "24px",
+  letterSpacing: "0.1px"
+
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* Body 1 */
+
+  fontWeight: 400,
+  fontSize: "16px",
+  lineHeight: "28px",
+  letterSpacing: "0.44px"
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* Body 2 */
+
+  fontWeight: 400,
+  fontSize: "14px",
+  lineHeight: "20px",
+  letterSpacing: "0.25px"
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* Botón */
+
+  fontWeight: 500,
+  fontSize: "16px",
+  lineHeight: "16px"
+
+/* identical to box height, or 100% */
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* Caption */
+
+  fontWeight: 400,
+  fontSize: "12px",
+  lineHeight: "16px",
+  letterSpacing: "0.4px"
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* OVERLINE */
+
+  fontWeight: 400,
+  fontSize: "10px",
+  lineHeight: "16px",
+  letterSpacing: "1.5px",
+  textTransform: "uppercase"
+
+/* Text Dark */
+color: #212121,
+
+———————————————————————————————————————————————————————————
+/* Badge */
+
+  fontWeight: 400,
+  fontSize: "8px",
+  lineHeight: "10px",
+  display: "flex",
+  alignItems: "center",
+
+/* Text Dark */
+  color: "#212121",

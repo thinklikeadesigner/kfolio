@@ -1,0 +1,62 @@
+Primario
+Amarillo Oro
+#47D16E
+
+Acento
+Rosa Caliente
+#59EBFE
+
+Hover
+Degradado B
+#47D16E 100%
+#59EBFF 100%
+
+Blanco
+#FFFFFF
+
+Rellenos
+#1F1F21
+
+Bordes
+#3D3D3D
+
+Fondo
+#171718
+
+Gris
+#A0A0A1
+
+
+Gradient component
+
+/* Light */
+
+position: absolute;
+width: 759px;
+height: 371px;
+left: 341px;
+top: -271px;
+
+/* Degradado B */
+background: linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%);
+opacity: 0.5;
+filter: blur(600px);
+
+
+Card Image colors
+
+purple
+#9000ff
+
+red
+#c2273a
+
+mustard
+#efb728
+
+blue gradient
+#343f98 to right #4f98d1
+
+
+green 
+#71e985

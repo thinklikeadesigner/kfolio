@@ -1,0 +1,20 @@
+const baseSpacing = 8;
+export const Spacing = {
+    xp25: baseSpacing * 0.25 + "px",
+    xp5: baseSpacing * 0.5 + "px",
+    x1: baseSpacing + "px",
+    x1p5: baseSpacing * 1.5 + "px",
+    x2: baseSpacing * 2 + "px",
+    x2p5: baseSpacing * 2.5 + "px",
+    x3: baseSpacing * 3 + "px",
+    x5: baseSpacing * 5 + "px",
+    x4: baseSpacing * 4 + "px",
+    x6: baseSpacing * 6 + "px",
+    x7: baseSpacing * 7 + "px",
+    x8: baseSpacing * 8 + "px",
+    x9: baseSpacing * 9 + "px",
+    x10: baseSpacing * 10 + "px",
+    x11: baseSpacing * 11 + "px",
+    x12: baseSpacing * 12 + "px",
+    x15: baseSpacing * 15 + "px",
+};

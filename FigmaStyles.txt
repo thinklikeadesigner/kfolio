@@ -1,0 +1,8 @@
+/* Blur Header */
+
+background: #C4C4C4;
+backdrop-filter: blur(80px);
+
+/* Note: backdrop-filter has minimal browser support */
+
+Blur header for green
