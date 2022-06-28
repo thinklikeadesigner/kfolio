@@ -18,6 +18,7 @@ const customTheme = extendTheme({
     bluegradleft: "#343f98",
     bluegradright: "#4f98d1",
     green: "#71e985"
+    //GOOGLE
 /**
  *        header background gradient: {
           background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
@@ -33,19 +34,84 @@ const customTheme = extendTheme({
   },
   components: {
     Button: {
+      sizes: {
+        size1: {
+          padding: "16px 8px",
+          gap: "10px",
+          width: "399px"
+        },
+        size2: {
+          padding: "16px 8px",
+          gap: "10px",
+          width: "286px"
+        },
+        size3: {
+          padding: "16px 20px",
+          gap: "10px",
+          width: "198px"
+        },
+        size4: {
+          padding: "16px 20px",
+          gap: "8px",
+          width: "172px"
+        },
+        size5: {
+          padding: "16px 20px",
+          gap: "10px",
+          width: "218px"
+        },
+        size6: {
+          padding: "16px 20px",
+          gap: "10px",
+          width: "328px"
+        },
+        size7: {
+          padding: "16px 20px",
+          gap: "10px",
+          width: "169px"
+        }
+      },
+      baseStyle: {
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "48px",
+        borderRadius: "8px",
+      },
       variants: {
         solid: {
-          backgroundColor: "primary",
-          color: "whiteColor",
+          background: "#47D16E",
+          transition: "transform 800ms ease-in-out",
+        },
+        hover: {
+          background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)"
         },
         ghost: {
-          color: "secondary",
+          boxSizing: "border-box",
+          // border: "1px solid #FFFFFF",
         },
-        navBar: {
-          color: "darkColor",
-          fontSize: "18px",
-          lineHeight: "29px",
-        },
+        ghosthover: {
+          boxSizing: "border-box",
+          borderWidth: "1px",
+          borderStyle: "solid",
+          borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
+          borderRadius: "8px",
+          _before: {
+            content: '""',
+            position: "absolute",
+            inset: "0",
+            borderRadius: "50px",
+            padding: "10px",
+            background: "linear-gradient(45deg,red,blue)",
+            WebkitMask:
+              "linear-gradient(#fff 0 0) content-box, \n           linear-gradient(#fff 0 0)",
+            WebkitMaskComposite: "xor",
+            maskComposite: "exclude"
+          }
+        //  border: "1px solid linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)"
+        }
+        // MAKEME buttons 5-8 need hover state gradient
       },
     },
     Image: {
@@ -124,9 +190,12 @@ const customTheme = extendTheme({
           letterSpacing: "0.25px"
         },
         "boton": {
+          fontFamily: "DM Sans",
+          fontStyle: "normal",
           fontWeight: 500,
           fontSize: "16px",
-          lineHeight: "16px"
+          lineHeight: "16px",
+          color: "blanco"
         },
         "caption": {
           fontWeight: 400,

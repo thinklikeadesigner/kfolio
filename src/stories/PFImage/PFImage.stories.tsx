@@ -23,6 +23,7 @@ export const BannerImage = () => {
         /**
          * how does this banner image have a hover effect, and how is the image inside the background work
          */
+        //GOOGLE
         borderRadius: "20px"
     }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbm5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" />;
 };

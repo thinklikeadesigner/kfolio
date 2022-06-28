@@ -1,0 +1,220 @@
+/* Estado=Por defecto, tipo=Escritorio */
+boton1
+/* Auto layout */
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 8px",
+  gap: "10px"
+  width: "399px",
+  height: "48px",
+  background: "#47D16E", 
+  borderRadius: "8px"
+
+--------------------------------------------------------------------------------------------------------------
+/* Estado=Hover, tipo=Escritorio */
+boton2
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 8px",
+  gap: "10px",
+  width: "399px",
+  height: "48px",
+  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  borderRadius: "8px"
+
+  --------------------------------------------------------------------------------------------------------------
+/* Estado=Por defecto, tipo=movil */
+boton3
+    display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 8px",
+  gap: "10px",
+  width: "286px",
+  height: "48px",
+  background: "#47D16E",
+  borderRadius: "8px"
+
+  --------------------------------------------------------------------------------------------------------------
+ /* Estado=Hover, tipo=movil */
+boton4
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 8px",
+  gap: "10px",
+  width: "286px",
+  height: "48px",
+  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  borderRadius: "8px"
+  --------------------------------------------------------------------------------------------------------------
+
+black top right
+
+/* Estado=Por defecto */
+boton5
+  boxSizing: "border-box",
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "10px",
+  width: "198px",
+  height: "48px",
+  border: "0.997936px solid #FFFFFF",
+  borderRadius: "8px"
+
+  --------------------------------------------------------------------------------------------------------------
+button bottom right black
+boton6
+  boxSizing: "border-box",
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "10px",
+  width: "198px",
+  height: "48px",
+  borderRadius: "8px"
+
+  --------------------------------------------------------------------------------------------------------------
+button top left black
+boton7
+  boxSizing: "border-box",
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "8px",
+  width: "172px",
+  height: "48px",
+  border: "1px solid #FFFFFF",
+  borderRadius: "8px"
+  --------------------------------------------------------------------------------------------------------------
+
+  button bottom left black
+  boton8
+    boxSizing: "border-box",
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "8px",
+  width: "172px",
+  height: "48px",
+  borderRadius: "8px"
+  --------------------------------------------------------------------------------------------------------------
+behance small
+boton9
+/* Estado=Por defecto, tipo=Por defecto */
+
+    display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "10px",
+  width: "218px",
+  height: "48px",
+  background: "#47D16E",
+  borderRadius: "8px"
+
+
+  --------------------------------------------------------------------------------------------------------------
+behance small Hover
+boton10
+/* Estado=hover, tipo=Por defecto */
+
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "10px",
+  width: "218px",
+  height: "48px",
+  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  borderRadius: "8px"
+  --------------------------------------------------------------------------------------------------------------
+
+BEHANCE TOP 
+
+/* Estado=Por defecto, tipo=largue */
+boton11
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "10px",
+  width: "328px",
+  height: "48px",
+  background: "#47D16E",
+  borderRadius: "8px"
+
+  --------------------------------------------------------------------------------------------------------------
+  behance big bottom
+
+/* Estado=hover, tipo=largue */
+boton12
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "10px",
+  width: "328px",
+  height: "48px",
+  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  borderRadius: "8px"
+  --------------------------------------------------------------------------------------------------------------
+proyectis top botton
+boton13
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "16px 20px",
+  gap: "10px",
+  width: "169px",
+  height: "48px",
+  background: "#47D16E",
+  borderRadius: "8px"
+  --------------------------------------------------------------------------------------------------------------
+
+proyectos bottom button
+
+/* estado=Hover */
+boton14
+/* Auto layout */
+
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignitems: "center",
+  padding: "16px 20px",
+  gap: "10px",
+  width: "169px",
+  height: "48px",
+  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  borderRadius: "8px"
+
+  --------------------------------------------------------------------------------------------------------------
+
+  --------------------------------------------------------------------------------------------------------------
+
+  --------------------------------------------------------------------------------------------------------------
+
+  --------------------------------------------------------------------------------------------------------------
+
+  --------------------------------------------------------------------------------------------------------------
