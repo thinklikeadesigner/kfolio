@@ -17,8 +17,8 @@ import PFParagraph from "./foundation/PFParagraph/PFParagraph";
 export const App = () => (
   <ChakraProvider theme={customTheme}>
     <div>
-      <PFButton variant="solid"
-      ><PFParagraph variant="boton" text="Enviar" /> </PFButton>
+      <PFButton variant="solid" size="size2" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
+      ><PFParagraph variant="boton" text="Enviar mobil" />  </PFButton>
       <PFImage stylesProps={{
         width: "1155px",
         height: "534px",

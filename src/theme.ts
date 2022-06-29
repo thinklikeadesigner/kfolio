@@ -84,34 +84,9 @@ const customTheme = extendTheme({
           background: "#47D16E",
           transition: "transform 800ms ease-in-out",
         },
-        hover: {
-          background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)"
-        },
         ghost: {
           boxSizing: "border-box",
-          // border: "1px solid #FFFFFF",
         },
-        ghosthover: {
-          boxSizing: "border-box",
-          borderWidth: "1px",
-          borderStyle: "solid",
-          borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
-          borderRadius: "8px",
-          _before: {
-            content: '""',
-            position: "absolute",
-            inset: "0",
-            borderRadius: "50px",
-            padding: "10px",
-            background: "linear-gradient(45deg,red,blue)",
-            WebkitMask:
-              "linear-gradient(#fff 0 0) content-box, \n           linear-gradient(#fff 0 0)",
-            WebkitMaskComposite: "xor",
-            maskComposite: "exclude"
-          }
-        //  border: "1px solid linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)"
-        }
-        // MAKEME buttons 5-8 need hover state gradient
       },
     },
     Image: {
