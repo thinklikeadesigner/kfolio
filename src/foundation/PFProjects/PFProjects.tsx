@@ -32,7 +32,7 @@ export const PFProjects = ({ children }: PFProjectsProps) => {
                */
               //GOOGLE
               borderRadius: "20px"
-            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29sb3JmdWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60" />} heading={<PFHeading stylesProps={{ position: "absolute", bottom: "68px", left: "47px" }} color="blanco" variant="h3" text="Stardeos - Un lugar justo"></PFHeading>}
+            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" />} heading={<PFHeading stylesProps={{ position: "absolute", bottom: "68px", left: "47px" }} color="blanco" variant="h3" text="Stardeos - Un lugar justo"></PFHeading>}
             text={<PFParagraph variant="sub1" color="blanco" text="Ver más en Behance desktop" stylesProps={{ position: "absolute", bottom: "40px", left: "47px" }} />} />
           <PFOverlay
             image={<PFImage stylesProps={{
@@ -43,7 +43,7 @@ export const PFProjects = ({ children }: PFProjectsProps) => {
                */
               //GOOGLE
               borderRadius: "20px"
-            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1490049350474-498de43bc885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2326&q=80" />} heading={<PFHeading stylesProps={{ position: "absolute", bottom: "68px", left: "47px" }} color="blanco" variant="h3" text="Stardeos - Un lugar justo"></PFHeading>}
+            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1465805139202-a644e217f00e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTZ8fGZvbGslMjBjb2xvcmZ1bHxlbnwwfDB8MHx8&auto=format&fit=crop&w=900&q=60" />} heading={<PFHeading stylesProps={{ position: "absolute", bottom: "68px", left: "47px" }} color="blanco" variant="h3" text="Stardeos - Un lugar justo"></PFHeading>}
             text={<PFParagraph variant="sub1" color="blanco" text="Rediseño de Stardeos.com" stylesProps={{ position: "absolute", bottom: "40px", left: "47px" }} />} />
           <PFOverlay
             image={<PFImage stylesProps={{
