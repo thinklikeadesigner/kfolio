@@ -31,7 +31,7 @@ const OverlayContainer = styled.div`
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out;
 `
 
 export const PFOverlay: React.FC<Props> = ({

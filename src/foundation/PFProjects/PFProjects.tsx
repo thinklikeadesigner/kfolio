@@ -21,7 +21,7 @@ export const PFProjects = ({ children }: PFProjectsProps) => {
   return (
     <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" pt="90px" alignItems="center" >
       <Box py="50px">
-        <PFHeading variant="h3" text="Mis habilidades" color="primario" />
+        <PFHeading variant="h3" text="Algunos de mis proyectos" color="primario" />
         <Box p="relative" d="flex" flexDir={"column"} gap="50px" justifyContent="space-around" mt="50px" alignItems={"center"}>
           <PFOverlay
             image={<PFImage stylesProps={{
