@@ -7,20 +7,20 @@ export default {
 };
 
 export const Default = () => {
-    return <PFHeading variant="h1" text="variant h1" />;
+    return <PFHeading color="blanco" variant="h1" text="variant h1" />;
 };
 export const H2 = () => {
-    return <PFHeading variant="h2" text="variant h2" />;
+    return <PFHeading color="blanco" variant="h2" text="variant h2" />;
 };
 
 export const H3 = () => {
-    return <PFHeading variant="h3" text="variant h3" />;
+    return <PFHeading color="blanco" variant="h3" text="variant h3" />;
 };
 
 export const H4 = () => {
-    return <PFHeading variant="h4" text="variant h4" />;
+    return <PFHeading color="blanco" variant="h4" text="variant h4" />;
 };
 
 export const H5 = () => {
-    return <PFHeading variant="h5" text="variant h5" />;
+    return <PFHeading color="blanco" variant="h5" text="variant h5" />;
 };

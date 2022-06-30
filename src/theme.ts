@@ -1,4 +1,4 @@
-import { extendTheme } from "@chakra-ui/react";
+import { baseStyle, extendTheme } from "@chakra-ui/react";
 import "@fontsource/dm-sans"
 
 const customTheme = extendTheme({
@@ -30,7 +30,7 @@ const customTheme = extendTheme({
   fonts: {
     heading: "DM Sans",
     body: "DM Sans",
-    fonstStyle: "normal"
+    fonstStyle: "normal",
   },
   components: {
     Button: {
@@ -69,7 +69,7 @@ const customTheme = extendTheme({
           padding: "16px 20px",
           gap: "10px",
           width: "169px"
-        }
+        },
       },
       baseStyle: {
         display: "flex",
@@ -87,7 +87,33 @@ const customTheme = extendTheme({
         ghost: {
           boxSizing: "border-box",
         },
+        link: {
+          boxSizing: "border-box",
+          borderRadius: 0
+        }
       },
+    },
+    Link: {
+      sizes: {
+        size1: {
+          padding: "8px 0px 0px",
+          gap: "5px",
+          height: "32px"
+        },
+      },
+      variants: {
+        solid: {
+          color: "#47D16E",
+        },
+      },
+        baseStyle: {
+          fontFamily: "DM Sans",
+          fontStyle: "normal",
+          fontWeight: 500,
+          fontSize: "16px",
+          lineHeight: "16px",
+          color: "blanco"
+        }
     },
     Image: {
       sx: {
@@ -96,14 +122,6 @@ const customTheme = extendTheme({
           height: "405.16px",
           borderRadius: "7.98349px"
         },
-        // ghost: {
-        //   color: "secondary",
-        // },
-        // navBar: {
-        //   color: "darkColor",
-        //   fontSize: "18px",
-        //   lineHeight: "29px",
-        // },
       },
     },
     Heading: {
@@ -112,7 +130,8 @@ const customTheme = extendTheme({
           fontWeight: 700,
           fontSize: "60px",
           lineHeight: "71px",
-          letterSpacing: "-0.5px"
+          letterSpacing: "-0.5px",
+          color: "yellow"
         },
         "h2": {
           fontWeight: 500,
@@ -123,7 +142,7 @@ const customTheme = extendTheme({
           fontWeight: 500,
           fontSize: "34px",
           lineHeight: "40px",
-          letterSpacing: "0.25px"
+          letterSpacing: "0.25px",
         },
         "h4": {
           fontWeight: 400,
@@ -156,7 +175,7 @@ const customTheme = extendTheme({
           fontWeight: 400,
           fontSize: "16px",
           lineHeight: "28px",
-          letterSpacing: "0.44px"
+          letterSpacing: "0.44px",
         },
         "body2": {
           fontWeight: 400,
