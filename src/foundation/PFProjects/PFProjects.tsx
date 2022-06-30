@@ -5,12 +5,17 @@ import PFAbility from "../PFAbilityCard/PFAbilityCard";
 import PFHeading from "../PFHeading/PFHeading";
 import PFParagraph from "../PFParagraph/PFParagraph";
 import PFButton from "../PFButton/PFButton";
-import PFImage from "../PFImage/PFImage";
+import PFImage from "../PFImage/PFImage"
+
+import { ImageOverlay } from 'react-image-overlay-effect'
+import { PFOverlay } from "../PFOverlay/PFOverlay";
 
 
 type PFProjectsProps = {
   children?: any;
 };
+
+
 
 export const PFProjects = ({ children }: PFProjectsProps) => {
   return (
@@ -18,14 +23,8 @@ export const PFProjects = ({ children }: PFProjectsProps) => {
       <Box py="50px">
         <PFHeading variant="h3" text="Mis habilidades" color="primario" />
         <Box p="relative" d="flex" flexDir={"column"} gap="50px" justifyContent="space-around" mt="50px" alignItems={"center"}>
-          <Box _hover={{
-
-            transition: ".5s ease",
-            opacity: 0.5,
-
-          }} >
-
-            <PFImage stylesProps={{
+          <PFOverlay
+            image={<PFImage stylesProps={{
               width: "1155px",
               height: "534px",
               /**
@@ -33,21 +32,10 @@ export const PFProjects = ({ children }: PFProjectsProps) => {
                */
               //GOOGLE
               borderRadius: "20px"
-            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbm5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" />
-            <Box style={{
-              transition: ".5s ease",
-              opacity: 1,
-              position: "relative"
-            }}><PFParagraph variant="boton" text="Ver más en Behance desktop" stylesProps={{ position: "absolute", bottom: "50", left: "50" }} /></Box>
-          </Box>
-          <Box _hover={{
-
-            transition: ".5s ease",
-            opacity: 0.5,
-
-          }} >
-
-            <PFImage stylesProps={{
+            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29sb3JmdWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60" />} heading={<PFHeading stylesProps={{ position: "absolute", bottom: "68px", left: "47px" }} color="blanco" variant="h3" text="Stardeos - Un lugar justo"></PFHeading>}
+            text={<PFParagraph variant="sub1" color="blanco" text="Ver más en Behance desktop" stylesProps={{ position: "absolute", bottom: "40px", left: "47px" }} />} />
+          <PFOverlay
+            image={<PFImage stylesProps={{
               width: "1155px",
               height: "534px",
               /**
@@ -55,21 +43,10 @@ export const PFProjects = ({ children }: PFProjectsProps) => {
                */
               //GOOGLE
               borderRadius: "20px"
-            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbm5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" />
-            <Box style={{
-              transition: ".5s ease",
-              opacity: 1,
-              position: "relative"
-            }}><PFParagraph variant="boton" text="Ver más en Behance desktop" stylesProps={{ position: "absolute", bottom: "50", left: "50" }} /></Box>
-          </Box>
-          <Box _hover={{
-            transition: ".5s ease",
-            opacity: 0.5,
-
-
-          }} >
-
-            <PFImage stylesProps={{
+            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1490049350474-498de43bc885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2326&q=80" />} heading={<PFHeading stylesProps={{ position: "absolute", bottom: "68px", left: "47px" }} color="blanco" variant="h3" text="Stardeos - Un lugar justo"></PFHeading>}
+            text={<PFParagraph variant="sub1" color="blanco" text="Rediseño de Stardeos.com" stylesProps={{ position: "absolute", bottom: "40px", left: "47px" }} />} />
+          <PFOverlay
+            image={<PFImage stylesProps={{
               width: "1155px",
               height: "534px",
               /**
@@ -77,16 +54,10 @@ export const PFProjects = ({ children }: PFProjectsProps) => {
                */
               //GOOGLE
               borderRadius: "20px"
-            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbm5lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" />
-            <Box style={{
-              transition: ".5s ease",
-              opacity: 1,
-              color: "blanco",
-              position: "relative"
-            }}><PFParagraph variant="boton" text="Ver más en Behance desktop" stylesProps={{ position: "absolute", bottom: "50", left: "50" }} /></Box>
-          </Box>
+            }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" />} heading={<PFHeading stylesProps={{ position: "absolute", bottom: "68px", left: "47px" }} color="blanco" variant="h3" text="Stardeos - Un lugar justo"></PFHeading>}
+            text={<PFParagraph variant="sub1" color="blanco" text="Rediseño de Stardeos.com" stylesProps={{ position: "absolute", bottom: "40px", left: "47px" }} />} />
           <PFButton variant="solid" size="size6" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
-          ><PFParagraph variant="boton" text="Ver más en Behance desktop" /></PFButton>
+          ><PFParagraph variant="boton" text="Rediseño de Stardeos.com" /></PFButton>
         </Box>
       </Box>
     </Box >
