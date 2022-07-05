@@ -17,11 +17,11 @@ type PFNavBarProps = {
 
 export default function PFNavBar({ color, stylesProps }: PFNavBarProps) {
   return (
-    <Box bg={color} py={{ sm: "18px", md: "36px" }} px={{ sm: "16px", md: "32px", lg: "64px", xl: "104px" }}>
+    <Box bg={color} py={{ xs: "18px", sm: "18px", md: "36px" }} px={{ xs: "12px", sm: "16px", md: "32px", lg: "64px", xl: "104px" }}>
       <Box display={{ sm: "flex", md: "flex", lg: "none" }} >
         <Box w={"100%"} display="flex" justifyContent={"space-between"} alignItems="center">
           <PFHeading variant="h4" color="blanco" text="Kat Rogers Music" />
-          <Icon w={["24px"]} h={["24px"]} >
+          <Icon>
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4 6H20M4 12H20M13 18H20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
@@ -29,7 +29,7 @@ export default function PFNavBar({ color, stylesProps }: PFNavBarProps) {
           </Icon>
         </Box>
       </Box>
-      <Box display={{ sm: "none", md: "none", lg: "flex" }} w="100" h="300px" boxSize="borderBox" d="flex" alignItems="center" justifyContent="space-between" >
+      <Box display={{ xs: "none", sm: "none", md: "none", lg: "flex" }} w="100" h="300px" boxSize="borderBox" d="flex" alignItems="center" justifyContent="space-between" >
         <Box>
           <PFHeading variant="h4" color="blanco" text="Kat Rogers Music" />
         </Box>

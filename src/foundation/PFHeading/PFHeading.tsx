@@ -4,7 +4,7 @@ import React from "react";
 
 
 type PFHeadingProps = {
-  variant: string;
+  variant: any;
   text: string;
   color: string;
   stylesProps?: Object;

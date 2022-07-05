@@ -27,6 +27,13 @@ const customTheme = extendTheme({
         },
  */
   },
+  breakpoints: {
+    xs: "280px",
+    sm: "320px",
+    md: "768px",
+    lg: "960px",
+    xl: "1200px",
+  },
   fonts: {
     heading: "DM Sans",
     body: "DM Sans",
@@ -152,6 +159,12 @@ const customTheme = extendTheme({
         "h5": {
           fontWeight: 500,
           fontSize: "20px",
+          lineHeight: "24px",
+          letterSpacing: "0.15px"
+        },
+        "h6": {
+          fontWeight: 500,
+          fontSize: "8px",
           lineHeight: "24px",
           letterSpacing: "0.15px"
         },

@@ -32,7 +32,8 @@ export const App = () => (
         <PFOverlayHeading
           heading={<PFHeading stylesProps={{
             fontWeight: 800,
-            fontSize: ["2rem", "4rem", "6rem", "8rem"]
+            lineHeight: ["80px", "40px"],
+            fontSize: ["0.001rem", "2rem", "4rem", "5rem", "7rem", "8rem"]
           }} color="blanco" variant="h3" text="KAT ROGERS"></PFHeading>}
           image={<PFImage stylesProps={{
             width: "100vw",
@@ -50,5 +51,5 @@ export const App = () => (
       <PFProjects />
 
     </PFLayout>
-  </ChakraProvider>
+  </ChakraProvider >
 );
