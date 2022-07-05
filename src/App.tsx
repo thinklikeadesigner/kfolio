@@ -17,6 +17,9 @@ import { PFAbout } from "./foundation/PFAbout/PFAbout";
 // import PFAbility from "./foundation/PFAbilityCard/PFAbilityCard";
 import PFAbilityCard from "./foundation/PFAbilityCard/PFAbilityCard";
 import { PFProjects } from "./foundation/PFProjects/PFProjects";
+import { PFOverlay } from "./foundation/PFOverlay/PFOverlay";
+import PFHeading from "./foundation/PFHeading/PFHeading";
+import { PFOverlayHeading } from "./foundation/PFOverlay/PFOverlayHeading";
 
 // import { routes } from "./routes/routes";
 // import LayoutPage from "./feature/Layout/LayoutPage";
@@ -26,13 +29,19 @@ export const App = () => (
     <PFLayout>
       <PFNavBar color="fondo" />
       <Box d="flex" justifyContent="center">
-        <PFImage stylesProps={{
-          width: "100vw",
-          /**
-           * how does this banner image have a hover effect, and how is the image inside the background work
-           */
-          //GOOGLE
-        }} height={["152px", "280px", "400px", "534px"]} objectFit="cover" src={"bannercopy.png"} />;
+        <PFOverlayHeading
+          heading={<PFHeading stylesProps={{
+            fontWeight: 800,
+            fontSize: ["2rem", "4rem", "6rem", "8rem"]
+          }} color="blanco" variant="h3" text="KAT ROGERS"></PFHeading>}
+          image={<PFImage stylesProps={{
+            width: "100vw",
+            /**
+             * how does this banner image have a hover effect, and how is the image inside the background work
+             */
+            //GOOGLE
+          }} height={["152px", "280px", "400px", "534px"]} objectFit="cover" src={"bannercopy.jpg"} />}
+        />
       </Box>
 
       <PFIntro />
