@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Box } from '@chakra-ui/react'
-import PFAbility from "../PFAbilityCard/PFAbilityCard";
+// import PFAbility from "../PFAbilityCard/PFAbilityCard";
 import PFHeading from "../PFHeading/PFHeading";
 import PFParagraph from "../PFParagraph/PFParagraph";
 import PFButton from "../PFButton/PFButton";

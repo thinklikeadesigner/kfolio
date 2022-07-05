@@ -4,9 +4,9 @@ import { bannerimage } from "../../assets/pics";
 
 
 
-type PFBannerProps = {
+// type PFBannerProps = {
 
-};
+// };
 
 export const PFBanner = ({ }: PFBannerProps) => {
   return (
