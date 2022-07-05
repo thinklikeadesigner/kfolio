@@ -11,15 +11,16 @@ type PFImageProps = {
   transition?: any;
   transform?: any;
   after?: any;
-
+  height?: any;
 };
-export default function PFImage({ src, stylesProps, boxSize, objectFit, className, opacity, transition, transform, after }: PFImageProps) {
+export default function PFImage({ src, stylesProps, height, boxSize, objectFit, className, opacity, transition, transform, after }: PFImageProps) {
   return (
     <Image
       sx={stylesProps}
       _after={after}
       alt="Balram Rathore"
       src={src}
+      h={height}
       className={className}
       boxSize={boxSize}
       objectFit={objectFit}

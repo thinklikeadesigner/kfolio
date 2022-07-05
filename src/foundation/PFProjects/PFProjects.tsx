@@ -19,10 +19,10 @@ type PFProjectsProps = {
 
 export const PFProjects = ({ children }: PFProjectsProps) => {
   return (
-    <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" pt="90px" alignItems="center" >
-      <Box py="50px">
+    <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" py="64px" alignItems="center" >
+      <Box>
         <PFHeading variant="h3" text="Algunos de mis proyectos" color="primario" />
-        <Box p="relative" d="flex" flexDir={"column"} gap="50px" justifyContent="space-around" mt="50px" alignItems={"center"}>
+        <Box p="relative" px={["45px", "90px", "144px"]} d="flex" flexDir={"column"} gap="50px" justifyContent="space-around" mt="50px" alignItems={"center"}>
           <PFOverlay
             image={<PFImage stylesProps={{
               width: "1155px",

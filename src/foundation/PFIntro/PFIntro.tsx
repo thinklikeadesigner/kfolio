@@ -13,7 +13,7 @@ type PFIntroProps = {
 
 export const PFIntro = ({ children }: PFIntroProps) => {
   return (
-    <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" pt="90px" pb="30px" alignItems="center" >
+    <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" px={["42px", "0px"]} pt="90px" pb={["64px", "80px"]} alignItems="center" >
       <Box d="flex" justifyContent="center" alignItems="center" flexDir="column" maxW="524px">
         <Heading textAlign="center" color="blanco" variant="h1" sx={{ paddingBottom: "16px" }}>
           Kat Rogers

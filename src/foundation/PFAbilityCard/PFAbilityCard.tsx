@@ -20,9 +20,11 @@ type PFAbilityCardProps = {
 
 export default function PFAbilityCard({ }: PFAbilityCardProps) {
   return (
-    <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" pt="160px" alignItems="center" >
+    <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" pt={["64px",
+      "80px"]} pb={["32px",
+        "64px"]} alignItems="center" >
       <PFHeading variant="h3" text="Mis habilidades" color="primario" />
-      <Stack direction={['column', 'row']} spacing='24px' py="90px">
+      <Stack direction={{ sm: 'column', md: 'column', lg: 'row' }} justifyContent="center" gap='24px' py="90px">
         <Box w="354px" h="308px" bg='rellenos' p="24px">
           <PFIconButton stylesProps={{
             background: "rellenos", color: "#59EBFF", marginBottom: "15px"
@@ -50,6 +52,6 @@ export default function PFAbilityCard({ }: PFAbilityCardProps) {
       </Stack>
       <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
       ><PFParagraph variant="boton" text="See my skills" />  </PFButton>
-    </Box>
+    </Box >
   );
 }

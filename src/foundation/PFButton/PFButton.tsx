@@ -3,7 +3,8 @@ import React from "react";
 
 type PFButtonType = {
   variant?: "ghost" | "solid" | "hover" | "underline";
-  size?: "size1" | "size2" | "size3" | "size4" | "size5" | "size6" | "size7" | "size8";
+  size?: any;
+  // size?: "size1" | "size2" | "size3" | "size4" | "size5" | "size6" | "size7" | "size8";
   stylesProps?: Object;
   hover?: any;
   before?: any;

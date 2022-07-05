@@ -28,12 +28,11 @@ export const App = () => (
       <Box d="flex" justifyContent="center">
         <PFImage stylesProps={{
           width: "100vw",
-          height: "534px",
           /**
            * how does this banner image have a hover effect, and how is the image inside the background work
            */
           //GOOGLE
-        }} objectFit="cover" boxSize='100px' src={"bannercopy.png"} />;
+        }} height={["152px", "280px", "400px", "534px"]} objectFit="cover" src={"bannercopy.png"} />;
       </Box>
 
       <PFIntro />
