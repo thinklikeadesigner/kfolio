@@ -1,8 +1,8 @@
-import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 import React from "react";
 import { Box, Heading } from '@chakra-ui/react'
-import PFAbility from "../PFAbilityCard/PFAbilityCard";
-import PFHeading from "../PFHeading/PFHeading";
+// import PFAbility from "../PFAbilityCard/PFAbilityCard";
+// import PFHeading from "../PFHeading/PFHeading";
 import PFParagraph from "../PFParagraph/PFParagraph";
 import PFButton from "../PFButton/PFButton";
 

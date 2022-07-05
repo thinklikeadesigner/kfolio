@@ -1,4 +1,4 @@
-import { baseStyle, extendTheme } from "@chakra-ui/react";
+import { extendTheme } from "@chakra-ui/react";
 import "@fontsource/dm-sans"
 
 const customTheme = extendTheme({

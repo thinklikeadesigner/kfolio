@@ -7,7 +7,6 @@ import PFParagraph from "../PFParagraph/PFParagraph";
 import PFButton from "../PFButton/PFButton";
 import PFImage from "../PFImage/PFImage"
 
-import { ImageOverlay } from 'react-image-overlay-effect'
 import { PFOverlay } from "../PFOverlay/PFOverlay";
 
 

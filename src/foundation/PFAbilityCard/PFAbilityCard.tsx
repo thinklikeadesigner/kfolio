@@ -2,12 +2,7 @@ import React from "react";
 
 import {
   Box,
-  Center,
-  useColorModeValue,
-  Heading,
-  Text,
   Stack,
-  Image,
 } from '@chakra-ui/react';
 import PFHeading from "../PFHeading/PFHeading";
 import PFButton from "../PFButton/PFButton";

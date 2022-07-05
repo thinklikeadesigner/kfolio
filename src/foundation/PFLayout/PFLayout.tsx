@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Box, Link } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 
 
 type PFLayoutProps = {
