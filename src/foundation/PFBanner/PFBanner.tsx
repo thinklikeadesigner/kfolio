@@ -8,7 +8,7 @@ import { bannerimage } from "../../assets/pics";
 
 // };
 
-export const PFBanner = ({ }: PFBannerProps) => {
+export const PFBanner = () => {
   return (
     <header>
       <Box d="flex" alignItems="center" justifyContent="space-between" ml={6} mr={6}>
