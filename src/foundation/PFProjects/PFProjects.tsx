@@ -10,13 +10,13 @@ import PFImage from "../PFImage/PFImage"
 import { PFOverlay } from "../PFOverlay/PFOverlay";
 
 
-type PFProjectsProps = {
-  children?: any;
-};
+// type PFProjectsProps = {
+//   children?: any;
+// };
 
 
 
-export const PFProjects = ({ children }: PFProjectsProps) => {
+export const PFProjects = () => {
   return (
     <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" py="64px" alignItems="center" >
       <Box>
