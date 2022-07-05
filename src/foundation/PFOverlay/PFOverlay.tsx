@@ -13,16 +13,16 @@ type Props = {
 
 const ContentContainer = styled.div`
   position: relative;
+@media screen and (min-width: 750px) {
   &:hover #overlay-content {
     opacity: 1;
-  }
+  }}
 `
 
 const OverlayContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.74%, #000000 100%);
   position: absolute;
   left: 0;
   top: 0;
@@ -30,8 +30,12 @@ const OverlayContainer = styled.div`
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.74%, #000000 100%);
+@media screen and (min-width: 750px) {
+  opacity: 1;
   transition: all 0.2s ease-in-out;
+}
 `
 
 export const PFOverlay: React.FC<Props> = ({
