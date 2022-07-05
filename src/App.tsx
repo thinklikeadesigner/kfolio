@@ -17,7 +17,7 @@ import { PFAbout } from "./foundation/PFAbout/PFAbout";
 // import PFAbility from "./foundation/PFAbilityCard/PFAbilityCard";
 import PFAbilityCard from "./foundation/PFAbilityCard/PFAbilityCard";
 import { PFProjects } from "./foundation/PFProjects/PFProjects";
-import { PFOverlay } from "./foundation/PFOverlay/PFOverlay";
+// import { PFOverlay } from "./foundation/PFOverlay/PFOverlay";
 import PFHeading from "./foundation/PFHeading/PFHeading";
 import { PFOverlayHeading } from "./foundation/PFOverlay/PFOverlayHeading";
 
