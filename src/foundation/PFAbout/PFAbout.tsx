@@ -21,7 +21,7 @@ export const PFAbout = ({ children }: PFAboutProps) => {
           width: "100%", height: "405.16px",
           borderRadius: "7.98349px",
           paddingRight: "32px"
-        }} objectFit="cover" boxSize='100px' src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" />;
+        }} objectFit="cover" boxSize='100px' src="darkportrait.jpg" />;
         <Box d="flex" flexDir="column">
 
 
