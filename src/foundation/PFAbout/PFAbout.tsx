@@ -26,7 +26,8 @@ export const PFAbout = ({ children }: PFAboutProps) => {
 
 
           <PFHeading stylesProps={{ textAlign: "left", marginBottom: "32px" }} color="primario" text="about me" variant="h2" />
-          <PFParagraph stylesProps={{ textAlign: "left", marginBottom: "24px" }} variant="body1" text="Hola! mi nombre es Yusting (Yuxin para los amigos) y tengo una gran afinidad hacía el trabajo colaborativo, me gusta crear diseños que inspiren e involucren a las personas. Como diseñador UI, considero que un buen producto no solo brinda una solución sino que permite crear una experiencia emocional en las personas que lo usan. En mi proceso creativo utilizo herramientas como Figma, Adobe XD, Photoshop e Illustrator que me ayudan en el flujo de trabajo para la producción de interfaces de usuario. " color="blanco" />
+          <PFParagraph stylesProps={{ textAlign: "left", marginBottom: "24px" }} variant="body1" text="          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officia sapiente facilis obcaecati rerum eum placeat sequi ipsum. Eum tempora deserunt provident optio deleniti eligendi, fuga quis nam maiores quae?          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officia sapiente facilis obcaecati rerum eum placeat sequi ipsum. Eum tempora deserunt provident optio deleniti eligendi, fuga quis nam maiores quae?" color="blanco" />
+
           <Box sx={{
             boxShadow: "0 0 0 1px white",
             width: "fit-content",
@@ -49,7 +50,7 @@ export const PFAbout = ({ children }: PFAboutProps) => {
                   maskComposite: "exclude"
                 }
               }}
-            ><PFParagraph variant="boton" text="Mas acerca de mi" />  </PFButton>
+            ><PFParagraph variant="boton" text="More about me" />  </PFButton>
           </Box>
         </Box>
       </Box>

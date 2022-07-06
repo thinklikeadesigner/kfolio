@@ -39,7 +39,7 @@ export default function PFNavBar({ color, stylesProps }: PFNavBarProps) {
         </Box>
         <Box>
           <PFButton variant="solid" size="size5" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
-          ><PFParagraph variant="boton" text="Contact Me" /> </PFButton>
+          ><PFParagraph variant="boton" text="Check out my Music!" /> </PFButton>
         </Box>
       </Box>
     </Box>

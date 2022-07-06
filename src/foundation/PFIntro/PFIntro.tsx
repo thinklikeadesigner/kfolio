@@ -53,7 +53,7 @@ export const PFIntro = ({ children }: PFIntroProps) => {
           </Box>
           <Box w="24px"></Box>
           <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
-          ><PFParagraph variant="boton" text="See my work" />  </PFButton>
+          ><PFParagraph variant="boton" text="Listen" />  </PFButton>
         </Box>
       </Box>
     </Box >

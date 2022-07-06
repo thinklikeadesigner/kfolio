@@ -13,7 +13,7 @@ type Props = {
 
 const ContentContainer = styled.div`
   position: relative;
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 900px) {
   &:hover #overlay-content {
     opacity: 1;
   }}
@@ -32,8 +32,8 @@ const OverlayContainer = styled.div`
   width: 100%;
   opacity: 1;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.74%, #000000 100%);
-@media screen and (min-width: 750px) {
-  opacity: 1;
+@media screen and (min-width: 900px) {
+  opacity: 0;
   transition: all 0.2s ease-in-out;
 }
 `
