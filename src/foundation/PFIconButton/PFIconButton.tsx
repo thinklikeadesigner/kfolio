@@ -27,22 +27,3 @@ export default function PFIconButton({ icon, ariaLabel, onClick, stylesProps, va
     aria-label={ariaLabel}
   />
 }
-
-// export default function PFIconButton({
-//   icon,
-//   ariaLabel,
-//   onClick,
-// }: PFIconButtonProps) {
-//   return (
-//     <IconButton
-    //   variant="ghost"
-    //   color="darkColor"
-    //   icon={icon}
-    //   size="lg"
-    //   onClick={onClick}
-    //   ml={Spacing.x1p5}
-    //   fontSize="28px"
-    //   aria-label={ariaLabel}
-//     />
-//   );
-// }

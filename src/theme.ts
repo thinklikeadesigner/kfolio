@@ -3,7 +3,7 @@ import "@fontsource/dm-sans"
 
 const customTheme = extendTheme({
   colors: {
-    primario: "#47D16E",
+    primario: "#1bd760",
     acento: "#59EBFE",
     blanco: "#FFFFFF",
     rellenos: "#1F1F21",
@@ -21,7 +21,7 @@ const customTheme = extendTheme({
     //GOOGLE
 /**
  *        header background gradient: {
-          background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+          background: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)",
           opacity: 0.5,
           filter: "blur(600px)"
         },
@@ -88,7 +88,7 @@ const customTheme = extendTheme({
       },
       variants: {
         solid: {
-          background: "#47D16E",
+          background: "#1bd760",
           transition: "transform 800ms ease-in-out",
         },
         ghost: {
@@ -110,7 +110,7 @@ const customTheme = extendTheme({
       },
       variants: {
         solid: {
-          color: "#47D16E",
+          color: "#1bd760",
         },
       },
         baseStyle: {

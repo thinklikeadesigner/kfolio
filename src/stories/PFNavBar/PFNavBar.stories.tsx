@@ -1,5 +1,5 @@
 import React from "react";
-import PFNavBar from "../../foundation/NavBar/NavBar";
+import PFNavBar from "../../foundation/PFNavBar/PFNavBar";
 
 export default {
   title: "Foundation/PFNavBar",

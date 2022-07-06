@@ -1,6 +1,6 @@
 Primario
 Amarillo Oro
-#47D16E
+#1bd760
 
 Acento
 Rosa Caliente
@@ -8,7 +8,7 @@ Rosa Caliente
 
 Hover
 Degradado B
-#47D16E 100%
+#1bd760 100%
 #59EBFF 100%
 
 Blanco
@@ -38,7 +38,7 @@ left: 341px;
 top: -271px;
 
 /* Degradado B */
-background: linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%);
+background: linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%);
 opacity: 0.5;
 filter: blur(600px);
 
@@ -58,5 +58,5 @@ blue gradient
 #343f98 to right #4f98d1
 
 
-green 
+green
 #71e985

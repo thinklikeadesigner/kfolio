@@ -9,7 +9,7 @@ boton1
   gap: "10px"
   width: "399px",
   height: "48px",
-  background: "#47D16E", 
+  background: "#1bd760",
   borderRadius: "8px"
 
 --------------------------------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ boton2
   gap: "10px",
   width: "399px",
   height: "48px",
-  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  background: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)",
   borderRadius: "8px"
 
   --------------------------------------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ boton3
   gap: "10px",
   width: "286px",
   height: "48px",
-  background: "#47D16E",
+  background: "#1bd760",
   borderRadius: "8px"
 
   --------------------------------------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ boton4
   gap: "10px",
   width: "286px",
   height: "48px",
-  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  background: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)",
   borderRadius: "8px"
   --------------------------------------------------------------------------------------------------------------
 
@@ -126,7 +126,7 @@ boton9
   gap: "10px",
   width: "218px",
   height: "48px",
-  background: "#47D16E",
+  background: "#1bd760",
   borderRadius: "8px"
 
 
@@ -143,11 +143,11 @@ boton10
   gap: "10px",
   width: "218px",
   height: "48px",
-  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  background: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)",
   borderRadius: "8px"
   --------------------------------------------------------------------------------------------------------------
 
-BEHANCE TOP 
+BEHANCE TOP
 
 /* Estado=Por defecto, tipo=largue */
 boton11
@@ -159,7 +159,7 @@ boton11
   gap: "10px",
   width: "328px",
   height: "48px",
-  background: "#47D16E",
+  background: "#1bd760",
   borderRadius: "8px"
 
   --------------------------------------------------------------------------------------------------------------
@@ -175,7 +175,7 @@ boton12
   gap: "10px",
   width: "328px",
   height: "48px",
-  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  background: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)",
   borderRadius: "8px"
   --------------------------------------------------------------------------------------------------------------
 proyectis top botton
@@ -188,7 +188,7 @@ boton13
   gap: "10px",
   width: "169px",
   height: "48px",
-  background: "#47D16E",
+  background: "#1bd760",
   borderRadius: "8px"
   --------------------------------------------------------------------------------------------------------------
 
@@ -206,7 +206,7 @@ boton14
   gap: "10px",
   width: "169px",
   height: "48px",
-  background: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)",
+  background: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)",
   borderRadius: "8px"
 
   --------------------------------------------------------------------------------------------------------------

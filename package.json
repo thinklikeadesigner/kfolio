@@ -30,6 +30,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "4.0.3",
     "react-simple-typewriter": "^3.0.1",
+    "react-spotify-embed": "^0.2.3",
     "typescript": "^3.9.5",
     "web-vitals": "^0.2.2"
   },

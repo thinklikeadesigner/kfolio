@@ -1,7 +1,6 @@
 
 import React from "react";
 import { Box } from '@chakra-ui/react'
-// import PFAbility from "../PFAbilityCard/PFAbilityCard";
 import PFHeading from "../PFHeading/PFHeading";
 import PFParagraph from "../PFParagraph/PFParagraph";
 import PFButton from "../PFButton/PFButton";
@@ -19,7 +18,7 @@ import { PFOverlay } from "../PFOverlay/PFOverlay";
 export const PFProjects = () => {
   return (
     <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" py="64px" alignItems="center" >
-      <Box>
+      <Box border={"1px solid red"}>
         <PFHeading variant="h3" text="Portfolio section, show ppl stuff" color="primario" />
         <Box p="relative" px={["45px", "90px", "144px"]} d="flex" flexDir={"column"} gap="50px" justifyContent="space-around" mt="50px" alignItems={"center"}>
           <PFOverlay
@@ -55,7 +54,7 @@ export const PFProjects = () => {
               borderRadius: "20px"
             }} objectFit="cover" boxSize='100px' src="guitar.jpg" />} heading={<PFHeading stylesProps={{ position: "absolute", bottom: "68px", left: "47px" }} color="blanco" variant="h3" text="Some other cool thing"></PFHeading>}
             text={<PFParagraph variant="sub1" color="blanco" text="ran out of ideas for stuff to say" stylesProps={{ position: "absolute", bottom: "40px", left: "47px" }} />} />
-          <PFButton variant="solid" size="size6" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
+          <PFButton variant="solid" size="size6" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
           ><PFParagraph variant="boton" text="My Music" /></PFButton>
         </Box>
       </Box>

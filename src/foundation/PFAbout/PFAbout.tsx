@@ -43,7 +43,7 @@ export const PFAbout = ({ children }: PFAboutProps) => {
                   inset: "0",
                   borderRadius: "8px",
                   padding: "2px",
-                  background: "linear-gradient(45deg,#47D16E,#59EBFF) border-box",
+                  background: "linear-gradient(45deg,#1bd760,#59EBFF) border-box",
                   WebkitMask:
                     "linear-gradient(#fff 0 0) content-box, \n           linear-gradient(#fff 0 0)",
                   WebkitMaskComposite: "xor",

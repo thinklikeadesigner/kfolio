@@ -10,7 +10,7 @@ export default {
 
 export const Default = () => {
   return (
-    <PFButton variant="solid" size="size2" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
+    <PFButton variant="solid" size="size2" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
     ><PFParagraph variant="boton" text="Enviar mobil" />  </PFButton>
 
   );
@@ -18,7 +18,7 @@ export const Default = () => {
 
 export const Boton9 = () => {
   return (
-    <PFButton variant="solid" size="size5" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
+    <PFButton variant="solid" size="size5" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
     ><PFParagraph variant="boton" text="Ver más en Behance mobil" /> </PFButton>
   );
 };
@@ -26,7 +26,7 @@ export const Boton9 = () => {
 
 export const Boton90 = () => {
   return (
-    <PFButton variant="underline" size="size8" hover={{ borderBottom: "1px solid #47D16E" }}
+    <PFButton variant="underline" size="size8" hover={{ borderBottom: "1px solid #1bd760" }}
     ><PFParagraph variant="boton" text="Inicio" /> </PFButton>
   );
 };
@@ -34,7 +34,7 @@ export const Boton90 = () => {
 
 export const Boton13 = () => {
   return (
-    <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
+    <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
     ><PFParagraph variant="boton" text="Ver proyectos" />  </PFButton>
   );
 };
@@ -53,7 +53,7 @@ export const Boton7 = () => {
           inset: "0",
           borderRadius: "8px",
           padding: "2px",
-          background: "linear-gradient(45deg,#47D16E,#59EBFF) border-box",
+          background: "linear-gradient(45deg,#1bd760,#59EBFF) border-box",
           WebkitMask:
             "linear-gradient(#fff 0 0) content-box, \n           linear-gradient(#fff 0 0)",
           WebkitMaskComposite: "xor",
@@ -78,7 +78,7 @@ export const Boton5 = () => {
             inset: "0",
             borderRadius: "8px",
             padding: "2px",
-            background: "linear-gradient(45deg,#47D16E,#59EBFF) border-box",
+            background: "linear-gradient(45deg,#1bd760,#59EBFF) border-box",
             WebkitMask:
               "linear-gradient(#fff 0 0) content-box, \n           linear-gradient(#fff 0 0)",
             WebkitMaskComposite: "xor",
@@ -91,14 +91,14 @@ export const Boton5 = () => {
 
 export const Boton3 = () => {
   return (
-    <PFButton variant="solid" size="size1" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
+    <PFButton variant="solid" size="size1" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
     ><PFParagraph variant="boton" text="Enviar desktop" /> </PFButton>
   );
 };
 
 export const Boton11 = () => {
   return (
-    <PFButton variant="solid" size="size6" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
+    <PFButton variant="solid" size="size6" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
     ><PFParagraph variant="boton" text="Ver más en Behance desktop" /></PFButton>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 
 import { PFLink } from "../../foundation/PFLink/PFLink";
-// import PFParagraph from "../../foundation/PFParagraph/PFParagraph";
 
 export default {
   title: "Foundation/PFLink",
@@ -10,7 +9,7 @@ export default {
 
 export const Default = () => {
   return (
-    <PFLink hover={{ borderBottom: "3px solid #47D16E" }} size="size1" href='https://chakra-ui.com' isExternal >Inicio</PFLink>
+    <PFLink hover={{ borderBottom: "3px solid #1bd760" }} size="size1" href='https://chakra-ui.com' isExternal >Inicio</PFLink>
   );
 };
 

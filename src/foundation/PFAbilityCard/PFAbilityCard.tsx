@@ -46,7 +46,7 @@ export default function PFAbilityCard() {
           <PFParagraph color="blanco" variant="body1" text="tell people how cool you are and stuff" stylesProps={{ textAlign: "left" }} />
         </Box>
       </Stack>
-      <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
+      <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
       ><PFParagraph variant="boton" text="See more" />  </PFButton>
     </Box >
   );
