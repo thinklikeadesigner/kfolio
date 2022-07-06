@@ -14,9 +14,9 @@ type PFIntroProps = {
 
 export const PFIntro = ({ children }: PFIntroProps) => {
   return (
-    <Box border="1px solid red" bg="fondo" d="flex" flexDirection="row" minW="100vw" m="0" px={["0px", "42px"]} pt="90px" pb={["64px", "80px"]} alignItems="center" >
-      <Box border="1px solid red" width={"100%"} d="flex" flexDir={{ sm: "column", md: "column", lg: "row" }} justifyContent="center" w="100%" alignItems="center"  >
-        <Box border="1px solid red" marginRight={{ sm: "0px", md: "0px", lg: "80px", xl: "200px" }} d="flex" justifyContent="center" alignItems="center" flexDir="column" maxW="524px" >
+    <Box bg="fondo" d="flex" flexDirection="row" minW="100vw" m="0" px={["0px", "42px"]} pt="90px" pb={["64px", "80px"]} alignItems="center" >
+      <Box width={"100%"} d="flex" flexDir={{ sm: "column", md: "column", lg: "row" }} justifyContent="center" w="100%" alignItems="center"  >
+        <Box marginRight={{ sm: "0px", md: "0px", lg: "80px", xl: "200px" }} d="flex" justifyContent="center" alignItems="center" flexDir="column" maxW="524px" >
           <Heading textAlign="center" color="blanco" variant="h1" sx={{ paddingBottom: "16px" }}>
             Kat Rogers
           </Heading><br />
@@ -27,11 +27,11 @@ export const PFIntro = ({ children }: PFIntroProps) => {
           }}>
             <Typewriter cursor cursorStyle='_' loop={false} words={['Singer', 'Songwriter', 'Musician', 'Sound Engineer', 'DJ']} />
           </span>
-          <Box border="1px solid red" maxW="446px" pt="16px">
+          <Box maxW="446px" pt="16px">
             <PFParagraph text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt inventore ullam, sint necessitatibus, odit accusamus aliquam dignissimos autem illo libero ipsa aspernatur, expedita illum. Soluta sunt officiis pariatur nobis." variant="h5" color="blanco" />
           </Box>
-          <Box border="1px solid red" d="flex" mt="30px" flexDirection="row" width="100%" justifyContent="center">
-            <Box border="1px solid red" sx={{
+          <Box d="flex" mt="30px" flexDirection="row" width="100%" justifyContent="center">
+            <Box sx={{
               boxShadow: "0 0 0 1px white",
               width: "fit-content",
               borderRadius: "8px"
@@ -53,7 +53,7 @@ export const PFIntro = ({ children }: PFIntroProps) => {
               }}
               ><PFParagraph variant="boton" text="Download CV" />  </PFButton>
             </Box>
-            <Box border="1px solid red" w="24px"></Box>
+            <Box w="24px"></Box>
             <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
             ><PFParagraph variant="boton" text="Listen" />  </PFButton>
           </Box>

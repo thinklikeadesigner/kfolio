@@ -14,9 +14,9 @@ type PFAboutProps = {
 
 export const PFAbout = ({ children }: PFAboutProps) => {
   return (
-    <Box border="1px solid red" d="flex" w="100vw" justifyContent={"center"} alignItems="center" py="80px">
-      <Box border="1px solid red" bg="fondo" px={{ xs: "16px", sm: "24px" }} d="flex" flexDirection="column" justifyContent="center" w="80vw" m="0" alignItems="center" >
-        <Box border="1px solid red" maxW="967px" d="flex" flexDir={{ sm: "column", md: "row", lg: "row" }} bg="rellenos" borderRadius="8px" p="24px"
+    <Box d="flex" w="100vw" justifyContent={"center"} alignItems="center" py="80px">
+      <Box bg="fondo" px={{ xs: "16px", sm: "24px" }} d="flex" flexDirection="column" justifyContent="center" w="80vw" m="0" alignItems="center" >
+        <Box maxW="967px" d="flex" flexDir={{ sm: "column", md: "row", lg: "row" }} bg="rellenos" borderRadius="8px" p="24px"
         // border="1.5px solid #3D3D3D"
         >
           <PFImage stylesProps={{
@@ -24,13 +24,13 @@ export const PFAbout = ({ children }: PFAboutProps) => {
             borderRadius: "7.98349px",
             paddingRight: "32px"
           }} objectFit="cover" boxSize='100px' src="darkportrait.jpg" />;
-          <Box border="1px solid red" d="flex" flexDir="column">
+          <Box d="flex" flexDir="column">
 
 
             <PFHeading stylesProps={{ textAlign: "left", marginBottom: "32px" }} color="primario" text="about me" variant="h2" />
             <PFParagraph stylesProps={{ textAlign: "left", marginBottom: "24px" }} variant="body1" text="          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officia sapiente facilis obcaecati rerum eum placeat sequi ipsum. Eum tempora deserunt provident optio deleniti eligendi, fuga quis nam maiores quae?          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officia sapiente facilis obcaecati rerum eum placeat sequi ipsum. Eum tempora deserunt provident optio deleniti eligendi, fuga quis nam maiores quae?" color="blanco" />
 
-            <Box border="1px solid red" sx={{
+            <Box sx={{
               boxShadow: "0 0 0 1px white",
               width: "fit-content",
               borderRadius: "8px"
