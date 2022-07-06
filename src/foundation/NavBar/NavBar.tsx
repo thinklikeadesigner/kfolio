@@ -34,8 +34,10 @@ export default function PFNavBar({ color, stylesProps }: PFNavBarProps) {
           <PFHeading variant="h4" color="blanco" text="Kat Rogers Music" />
         </Box>
         <Box d="flex" gap="40px">
-          <PFLink hover={{ borderBottom: "3px solid #47D16E" }} size="size1" href='https://chakra-ui.com' isExternal >About Me</PFLink>
-          <PFLink hover={{ borderBottom: "3px solid #47D16E" }} size="size1" href='https://chakra-ui.com' isExternal >Music</PFLink> <PFLink hover={{ borderBottom: "3px solid #47D16E" }} size="size1" href='https://chakra-ui.com' isExternal >Portfolio</PFLink>
+          <PFLink hover={{ borderBottom: "3px solid #47D16E" }} size="size1" href='#' >About Me</PFLink>
+          <PFLink hover={{ borderBottom: "3px solid #47D16E" }} size="size1" href='#'
+          // isExternal
+          >Music</PFLink> <PFLink hover={{ borderBottom: "3px solid #47D16E" }} size="size1" href='#'  >Portfolio</PFLink>
         </Box>
         <Box>
           <PFButton variant="solid" size="size5" hover={{ bg: "linear-gradient(270deg, #47D16E 10.81%, #59EBFF 100%)" }}
