@@ -41,7 +41,7 @@ export const Boton13 = () => {
 
 export const Boton7 = () => {
   return (
-    <Box sx={{
+    <Box border="1px solid red" sx={{
       border: "1px solid white",
       width: "fit-content",
       borderRadius: "8px"
@@ -65,7 +65,7 @@ export const Boton7 = () => {
 };
 export const Boton5 = () => {
   return (
-    <Box sx={{
+    <Box border="1px solid red" sx={{
       border: "1px solid white",
       width: "fit-content",
       borderRadius: "8px"

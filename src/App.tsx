@@ -16,7 +16,7 @@ export const App = () => (
   <ChakraProvider theme={customTheme}>
     <PFLayout>
       <PFNavBar color="fondo" />
-      <Box d="flex" justifyContent="center">
+      <Box border="1px solid red" d="flex" justifyContent="center">
         <PFOverlayHeading
           heading={<PFHeading stylesProps={{
             fontWeight: 800,

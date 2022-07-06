@@ -15,12 +15,12 @@ import { FiAirplay } from "react-icons/fi";
 
 export default function PFAbilityCard() {
   return (
-    <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" pt={["64px",
+    <Box border="1px solid red" bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" pt={["64px",
       "80px"]} pb={["32px",
         "64px"]} alignItems="center" >
       <PFHeading variant="h3" text="Skills" color="primario" />
       <Stack direction={{ sm: 'column', md: 'column', lg: 'row' }} justifyContent="center" gap='24px' py="90px">
-        <Box w="354px" h="308px" bg='rellenos' p="24px">
+        <Box border="1px solid red" h="308px" bg='rellenos' p="24px">
           <PFIconButton stylesProps={{
             background: "rellenos", color: "#59EBFF", marginBottom: "15px"
 
@@ -29,7 +29,7 @@ export default function PFAbilityCard() {
           <PFParagraph color="blanco" variant="body1" text="This is wear you would talk about what kind of projects you do lol" stylesProps={{ textAlign: "left" }} />
         </Box>
 
-        <Box w="354px" h="308px" bg='rellenos' p="24px">
+        <Box border="1px solid red" w="354px" h="308px" bg='rellenos' p="24px">
           <PFIconButton stylesProps={{
             background: "rellenos", color: "primario", marginBottom: "15px"
 
@@ -37,7 +37,7 @@ export default function PFAbilityCard() {
           <PFHeading color="blanco" variant="h3" text="Songwriter" stylesProps={{ marginBottom: "15px", textAlign: "left" }} />
           <PFParagraph color="blanco" variant="body1" text="essentially this would be the skills section of your resume/portfolio" stylesProps={{ textAlign: "left" }} />
         </Box>
-        <Box w="354px" h="308px" bg='rellenos' p="24px">
+        <Box border="1px solid red" w="354px" h="308px" bg='rellenos' p="24px">
           <PFIconButton stylesProps={{
             background: "rellenos", color: "#59EBFF", marginBottom: "15px"
 
