@@ -18,7 +18,7 @@ export default function PFAbilityCard() {
     <Box bg="fondo" d="flex" flexDirection="column" justifyContent="center" minW="100vw" m="0" p="0" pt={["64px",
       "80px"]} pb={["32px",
         "64px"]} alignItems="center" >
-      <PFHeading variant="h3" text="Skills" color="primario" />
+      {/* <PFHeading variant="h3" text="Skills" color="primario" />
       <Stack direction={{ sm: 'column', md: 'column', lg: 'row' }} justifyContent="center" gap='24px' py="90px">
         <Box h="308px" bg='rellenos' p="24px">
           <PFIconButton stylesProps={{
@@ -47,7 +47,7 @@ export default function PFAbilityCard() {
         </Box>
       </Stack>
       <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
-      ><PFParagraph variant="boton" text="See more" />  </PFButton>
+      ><PFParagraph variant="boton" text="See more" />  </PFButton> */}
     </Box >
   );
 }
