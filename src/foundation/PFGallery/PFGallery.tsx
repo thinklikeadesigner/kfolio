@@ -19,10 +19,13 @@ export const PFGallery = () => {
     <Box bg="fondo" d="flex" w="100vw" justifyContent={"center"} alignItems="center" py="80px">
 
       <Gallery >
-        <Box gridGap={{ xs: 4, sm: 8, md: 8, lg: 8 }} padding="160px" gridTemplateColumns={{ xs: "repeat(1, 1fr)", sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)", xl: "repeat(5, 1fr)" }} style={{
-          display: 'grid',
-          gridTemplateRows: '120px, 100px',
-        }}>
+        <Box gridGap={{ xs: 4, sm: 8, md: 8, lg: 8 }} padding="160px"
+          // gridTemplateColumns={{ xs: "repeat(1, 1fr)", sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)", xl: "repeat(5, 1fr)" }}
+          gridTemplateColumns="repeat(auto-fit, minmax(300px, 1fr))"
+          style={{
+            display: 'grid',
+            gridTemplateRows: '114px, 114px',
+          }}>
           <Item
 
 
