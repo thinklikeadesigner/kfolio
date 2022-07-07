@@ -1,11 +1,7 @@
 
 import React from "react";
 import { Box } from '@chakra-ui/react'
-import PFHeading from "../PFHeading/PFHeading";
-import PFParagraph from "../PFParagraph/PFParagraph";
-import PFButton from "../PFButton/PFButton";
 import PFImage from "../PFImage/PFImage";
-import { FaSadCry, FaSpotify } from "react-icons/fa";
 import Spotify from "../../spotify";
 
 
