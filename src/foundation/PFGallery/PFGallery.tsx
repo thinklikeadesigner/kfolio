@@ -27,7 +27,7 @@ export const PFGallery = () => {
             gridTemplateRows: '114px, 114px',
           }}>
           <Item
-            alt="asdfa"
+
 
 
             id='guitar'
@@ -36,12 +36,12 @@ export const PFGallery = () => {
             width="819"
             height="824"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="guitar.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="guitar.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='housepic'
             original="housepic.jpg"
@@ -49,12 +49,12 @@ export const PFGallery = () => {
             width="960"
             height="1280"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="housepic.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="housepic.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
 
             id='sitdrink'
@@ -63,12 +63,12 @@ export const PFGallery = () => {
             width="933"
             height="1024"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="sitdrink.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="sitdrink.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='live'
             original="live.jpg"
@@ -76,24 +76,24 @@ export const PFGallery = () => {
             width="491"
             height="1024"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="live.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="live.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
             id='carwink'
             original="carwink.jpg"
             thumbnail="carwink.jpg"
             width="1200"
             height="1600"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="carwink.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="carwink.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
             // 935 × 1024
             id='showdrink'
             original="showdrink.jpg"
@@ -102,12 +102,12 @@ export const PFGallery = () => {
             height="1024"
 
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="showdrink.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="showdrink.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='djlooking'
             original="djlooking.jpg"
@@ -115,12 +115,12 @@ export const PFGallery = () => {
             width="960"
             height="1280"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="djlooking.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="djlooking.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='djnotlooking'
             original="djnotlooking.jpg"
@@ -128,12 +128,12 @@ export const PFGallery = () => {
             width="1200"
             height="1600"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="djnotlooking.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="djnotlooking.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='guitar'
             original="guitar.jpg"
@@ -141,12 +141,12 @@ export const PFGallery = () => {
             width="819"
             height="824"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="guitar.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="guitar.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='housepic'
             original="housepic.jpg"
@@ -154,12 +154,12 @@ export const PFGallery = () => {
             width="960"
             height="1280"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="housepic.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="housepic.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='sitdrink'
             original="sitdrink.jpg"
@@ -167,12 +167,12 @@ export const PFGallery = () => {
             width="933"
             height="1024"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="sitdrink.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="sitdrink.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='live'
             original="live.jpg"
@@ -180,12 +180,12 @@ export const PFGallery = () => {
             width="491"
             height="1024"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="live.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="live.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='guitar'
             original="guitar.jpg"
@@ -193,12 +193,12 @@ export const PFGallery = () => {
             width="819"
             height="824"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="guitar.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="guitar.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='housepic'
             original="housepic.jpg"
@@ -206,12 +206,12 @@ export const PFGallery = () => {
             width="960"
             height="1280"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="housepic.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="housepic.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
 
             id='sitdrink'
             original="sitdrink.jpg"
@@ -219,20 +219,20 @@ export const PFGallery = () => {
             width="933"
             height="1024"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="sitdrink.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="sitdrink.jpg" />
             )}
           </Item>
           <Item
-            alt="asdfa"
+
             id='live'
             original="live.jpg"
             thumbnail="live.jpg"
             width="491"
             height="1024"
           >
-            {({ ref, open, smallItemsStyles }: any) => (
-              <img style={smallItemsStyles} ref={ref} onClick={open} src="live.jpg" />
+            {({ ref, open, smallItemStyles }: any) => (
+              <img alt="asdfa" style={smallItemStyles} ref={ref} onClick={open} src="live.jpg" />
             )}
           </Item>
         </Box>

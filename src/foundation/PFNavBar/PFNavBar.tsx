@@ -1,7 +1,7 @@
 import { Icon } from "@chakra-ui/icons";
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import { FaFacebook, FaInstagram, FaSpotify, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaSpotify } from "react-icons/fa";
 import { SiTiktok } from "react-icons/si";
 
 import PFButton from "../PFButton/PFButton";
