@@ -23,7 +23,7 @@ export const PFAbout = ({ children }: PFAboutProps) => {
           <PFImage stylesProps={{
             width: "100%", height: "405.16px",
             // borderRadius: "20px",
-            paddingRight: ["0px", "0px", "0px", "0px", "32px"]
+            marginRight: ["0px", "0px", "0px", "0px", "32px"]
           }} objectFit="cover" boxSize='100px' src="showdrink.jpg" />;
           <Box d="flex" flexDir="column">
 
