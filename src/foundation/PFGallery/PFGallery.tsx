@@ -28,6 +28,7 @@ export const PFGallery = () => {
             gridTemplateRows: '114px, 114px',
           }}>
           <Item
+            alt="asdfa"
 
 
             id='guitar'
@@ -41,6 +42,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='housepic'
             original="housepic.jpg"
@@ -53,6 +55,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
 
             id='sitdrink'
@@ -66,6 +69,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='live'
             original="live.jpg"
@@ -78,6 +82,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
             id='carwink'
             original="carwink.jpg"
             thumbnail="carwink.jpg"
@@ -89,6 +94,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
             // 935 × 1024
             id='showdrink'
             original="showdrink.jpg"
@@ -102,6 +108,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='djlooking'
             original="djlooking.jpg"
@@ -114,6 +121,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='djnotlooking'
             original="djnotlooking.jpg"
@@ -126,6 +134,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='guitar'
             original="guitar.jpg"
@@ -138,6 +147,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='housepic'
             original="housepic.jpg"
@@ -150,6 +160,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='sitdrink'
             original="sitdrink.jpg"
@@ -162,6 +173,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='live'
             original="live.jpg"
@@ -174,6 +186,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='guitar'
             original="guitar.jpg"
@@ -186,6 +199,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='housepic'
             original="housepic.jpg"
@@ -198,6 +212,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
 
             id='sitdrink'
             original="sitdrink.jpg"
@@ -210,6 +225,7 @@ export const PFGallery = () => {
             )}
           </Item>
           <Item
+            alt="asdfa"
             id='live'
             original="live.jpg"
             thumbnail="live.jpg"

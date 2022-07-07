@@ -2,13 +2,13 @@ import React from "react";
 
 import {
   Box,
-  Stack,
+  // Stack,
 } from '@chakra-ui/react';
-import PFHeading from "../PFHeading/PFHeading";
-import PFButton from "../PFButton/PFButton";
-import PFParagraph from "../PFParagraph/PFParagraph";
-import PFIconButton from "../PFIconButton/PFIconButton";
-import { FiAirplay } from "react-icons/fi";
+// import PFHeading from "../PFHeading/PFHeading";
+// import PFButton from "../PFButton/PFButton";
+// import PFParagraph from "../PFParagraph/PFParagraph";
+// import PFIconButton from "../PFIconButton/PFIconButton";
+// import { FiAirplay } from "react-icons/fi";
 // type PFAbilityCardProps = {
 //   children: Object;
 // };
