@@ -13,7 +13,7 @@ export const PFGallery = () => {
     <Box bg="fondo" d="flex" w="100vw" justifyContent={"center"} flexDir="column" alignItems="center" py="80px">
       <PFHeading stylesProps={{}} color="primario" text="Gallery" variant="h2" />
       <Gallery >
-        <Box gridGap={{ xs: 4, sm: 8, md: 8, lg: 8 }} px="160px" py="64px"
+        <Box gridGap={{ xs: 4, sm: 8, md: 8, lg: 8 }} px={{ xs: "16px", sm: "24px", md: "80px", lg: "160px" }} py="64px"
           // gridTemplateColumns={{ xs: "repeat(1, 1fr)", sm: "repeat(1, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)", xl: "repeat(5, 1fr)" }}
           gridTemplateColumns="repeat(auto-fit, minmax(300px, 1fr))"
           style={{
