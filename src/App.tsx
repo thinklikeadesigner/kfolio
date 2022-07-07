@@ -33,7 +33,6 @@ export const App = () => (
           }} height={["152px", "280px", "400px", "534px"]} objectFit="cover" src={"bannercopy.jpg"} />}
         />
       </Box>
-
       <PFIntro />
       <PFAbout />
       <PFGallery></PFGallery>

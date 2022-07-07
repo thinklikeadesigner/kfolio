@@ -5,6 +5,7 @@ import { FaInstagram, FaSpotify } from "react-icons/fa";
 import { SiTiktok } from "react-icons/si";
 
 import PFButton from "../PFButton/PFButton";
+import PFDrawer from "../PFDrawer/PFDrawer";
 import PFHeading from "../PFHeading/PFHeading";
 import { PFLink } from "../PFLink/PFLink";
 import PFParagraph from "../PFParagraph/PFParagraph";
@@ -24,13 +25,9 @@ export default function PFNavBar({ color, stylesProps }: PFNavBarProps) {
       <Box display={{ sm: "flex", md: "flex", lg: "none" }} >
         <Box w={"100%"} display="flex" justifyContent={"space-between"} alignItems="center">
           <PFHeading variant="h4" color="blanco" text="Kat Rogers Music" />
-          <Icon>
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 6H20M4 12H20M13 18H20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
 
+          <PFDrawer drawerSize="full" />
 
-          </Icon>
         </Box>
       </Box>
       <Box display={{ xs: "none", sm: "none", md: "none", lg: "flex" }} w="100" h="300px" boxSize="borderBox" d="flex" alignItems="center" justifyContent="space-between" >
