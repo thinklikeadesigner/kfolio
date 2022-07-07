@@ -16,14 +16,14 @@ type PFAboutProps = {
 export const PFAbout = ({ children }: PFAboutProps) => {
   return (
     <Box bg="rellenos" d="flex" w="100vw" justifyContent={"center"} alignItems="center" py="80px">
-      <Box px={{ xs: "16px", sm: "24px" }} d="flex" flexDirection="column" justifyContent="center" w="80vw" m="0" alignItems="center" >
+      <Box d="flex" flexDirection="column" justifyContent="center" w="80vw" m="0" alignItems="center" >
         <Box maxW="967px" d="flex" flexDir={{ sm: "column", md: "row", lg: "row" }} borderRadius="8px" p="24px"
         // border="1.5px solid #3D3D3D"
         >
           <PFImage stylesProps={{
             width: "100%", height: "405.16px",
-            borderRadius: "20px",
-            paddingRight: "32px"
+            // borderRadius: "20px",
+            paddingRight: ["0px", "0px", "0px", "0px", "32px"]
           }} objectFit="cover" boxSize='100px' src="showdrink.jpg" />;
           <Box d="flex" flexDir="column">
 
