@@ -16,7 +16,7 @@ type PFSpotifyProps = {
 export const PFSpotify = ({ children }: PFSpotifyProps) => {
   return (
     // <Box d="flex" w="100vw" justifyContent={"center"} alignItems="center" py="80px">
-    <Box marginTop={{ sm: "90px", md: "90px", lg: "0px", xl: "0px" }} bgGradient={"linear(to-br,  #0d0331, #af1f86)"} d="flex" flexDirection={"column"} borderRadius="20px" justifyContent={"center"} m="0" p={"48px"} alignItems="center" >
+    <Box marginTop={{ sm: "90px", md: "90px", lg: "0px", xl: "0px" }} bgGradient={"linear(to-br,  black, #af1f86)"} d="flex" flexDirection={"column"} borderRadius="20px" justifyContent={"center"} m="0" p={"48px"} alignItems="center" >
       <Box d="flex" flexDirection={{ sm: "column", md: "column", lg: "column" }} borderRadius="8px">
         <Box display={"flex"} justifyContent="center" alignItems="baseline">
           <PFImage src="spotify.png" stylesProps={{ height: "48px", marginBottom: "32px" }} />

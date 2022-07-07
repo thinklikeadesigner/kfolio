@@ -1,4 +1,6 @@
 import { Box, Button, Image } from "@chakra-ui/react";
+import 'photoswipe/dist/photoswipe.css'
+import { Gallery, Item } from 'react-photoswipe-gallery'
 import React from "react";
 import { bannerimage } from "../../assets/pics";
 
@@ -8,7 +10,7 @@ import { bannerimage } from "../../assets/pics";
 
 // };
 
-export const PFBanner = () => {
+const PFBanner = () => {
   return (
     <header>
       {/* <Box d="flex" alignItems="center" justifyContent="space-between" ml={6} mr={6}>
@@ -18,3 +20,8 @@ export const PFBanner = () => {
     </header>
   );
 }
+
+
+
+
+export { PFBanner }

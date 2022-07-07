@@ -14,7 +14,7 @@ type PFIntroProps = {
 
 export const PFIntro = ({ children }: PFIntroProps) => {
   return (
-    <Box bg="fondo" d="flex" flexDirection="row" minW="100vw" m="0" px={["0px", "42px"]} pt="90px" pb={["64px", "80px"]} alignItems="center" >
+    <Box id="spotify" bg="fondo" d="flex" flexDirection="row" minW="100vw" m="0" px={["0px", "42px"]} pt="90px" pb={["64px", "80px"]} alignItems="center" >
       <Box width={"100%"} d="flex" flexDir={{ sm: "column", md: "column", lg: "row" }} justifyContent="center" w="100%" alignItems="center"  >
         <Box marginRight={{ sm: "0px", md: "0px", lg: "80px", xl: "200px" }} d="flex" justifyContent="center" alignItems="center" flexDir="column" maxW="524px" >
           <Heading textAlign="center" color="blanco" variant="h1" sx={{ paddingBottom: "16px" }}>

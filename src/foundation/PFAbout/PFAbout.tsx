@@ -6,6 +6,7 @@ import PFHeading from "../PFHeading/PFHeading";
 import PFParagraph from "../PFParagraph/PFParagraph";
 import PFButton from "../PFButton/PFButton";
 import PFImage from "../PFImage/PFImage";
+import { PFGallery } from "../PFGallery/PFGallery";
 
 
 type PFAboutProps = {
@@ -14,16 +15,16 @@ type PFAboutProps = {
 
 export const PFAbout = ({ children }: PFAboutProps) => {
   return (
-    <Box d="flex" w="100vw" justifyContent={"center"} alignItems="center" py="80px">
-      <Box bg="fondo" px={{ xs: "16px", sm: "24px" }} d="flex" flexDirection="column" justifyContent="center" w="80vw" m="0" alignItems="center" >
-        <Box maxW="967px" d="flex" flexDir={{ sm: "column", md: "row", lg: "row" }} bg="rellenos" borderRadius="8px" p="24px"
+    <Box bg="rellenos" d="flex" w="100vw" justifyContent={"center"} alignItems="center" py="80px">
+      <Box px={{ xs: "16px", sm: "24px" }} d="flex" flexDirection="column" justifyContent="center" w="80vw" m="0" alignItems="center" >
+        <Box maxW="967px" d="flex" flexDir={{ sm: "column", md: "row", lg: "row" }} borderRadius="8px" p="24px"
         // border="1.5px solid #3D3D3D"
         >
           <PFImage stylesProps={{
             width: "100%", height: "405.16px",
-            borderRadius: "7.98349px",
+            borderRadius: "20px",
             paddingRight: "32px"
-          }} objectFit="cover" boxSize='100px' src="darkportrait.jpg" />;
+          }} objectFit="cover" boxSize='100px' src="showdrink.jpg" />;
           <Box d="flex" flexDir="column">
 
 
@@ -45,7 +46,7 @@ export const PFAbout = ({ children }: PFAboutProps) => {
                     inset: "0",
                     borderRadius: "8px",
                     padding: "2px",
-                    background: "linear-gradient(45deg,#1bd760,#59EBFF) border-box",
+                    background: "linear-gradient(45deg,black, #af1f86) border-box",
                     WebkitMask:
                       "linear-gradient(#fff 0 0) content-box, \n           linear-gradient(#fff 0 0)",
                     WebkitMaskComposite: "xor",

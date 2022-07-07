@@ -11,6 +11,7 @@ import { PFProjects } from "./foundation/PFProjects/PFProjects";
 import PFHeading from "./foundation/PFHeading/PFHeading";
 import { PFOverlayHeading } from "./foundation/PFOverlay/PFOverlayHeading";
 import { PFFooter } from "./foundation/PFFooter/PFFooter";
+import { PFGallery } from "./foundation/PFGallery/PFGallery";
 
 export const App = () => (
   <ChakraProvider theme={customTheme}>
@@ -35,7 +36,7 @@ export const App = () => (
 
       <PFIntro />
       <PFAbout />
-
+      <PFGallery></PFGallery>
       <PFAbilityCard />
       <PFProjects />
       <PFFooter></PFFooter>
