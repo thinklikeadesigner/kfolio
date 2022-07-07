@@ -1,8 +1,7 @@
-import { Box, Button, Image } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 import React from "react";
-import { bannerimage } from "../../assets/pics";
 import PFHeading from "../PFHeading/PFHeading";
 
 export const PFGallery = () => {

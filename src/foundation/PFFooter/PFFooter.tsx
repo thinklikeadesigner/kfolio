@@ -5,11 +5,13 @@ import PFParagraph from "../PFParagraph/PFParagraph";
 
 
 
-type PFFooterProps = {
+// type PFFooterProps = {
 
-};
+// };
 
-export const PFFooter = ({ }: PFFooterProps) => {
+export const PFFooter = (
+  // { }: PFFooterProps
+) => {
   return (
     <footer>
       <Box h="301px" px="64px" pt="64px" pb="32px" display={"flex"} flexDir="column" justifyContent="center" alignItems={"start"}>
