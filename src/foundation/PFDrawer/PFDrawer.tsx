@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Box, Button, Divider, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Icon, useDisclosure } from "@chakra-ui/react"
+import { Box, Button, Divider, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerOverlay, useDisclosure } from "@chakra-ui/react"
 import { FaInstagram, FaSpotify } from "react-icons/fa"
 import { SiTiktok } from "react-icons/si"
 import { PFLink } from "../PFLink/PFLink"
