@@ -1,4 +1,3 @@
-import { Icon } from "@chakra-ui/icons";
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import { FaInstagram, FaSpotify } from "react-icons/fa";

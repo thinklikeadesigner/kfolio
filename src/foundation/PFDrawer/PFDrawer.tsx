@@ -3,9 +3,7 @@ import React from "react"
 import { Box, Button, Divider, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Icon, useDisclosure } from "@chakra-ui/react"
 import { FaInstagram, FaSpotify } from "react-icons/fa"
 import { SiTiktok } from "react-icons/si"
-import PFButton from "../PFButton/PFButton"
 import { PFLink } from "../PFLink/PFLink"
-import PFParagraph from "../PFParagraph/PFParagraph"
 import PFHeading from "../PFHeading/PFHeading"
 
 type PFDrawerProps = {
@@ -15,11 +13,9 @@ type PFDrawerProps = {
 }
 
 export default function PFDrawer({ drawerSize }: PFDrawerProps) {
-  const [size, setSize] = React.useState('')
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   const handleClick = ({ newSize }: any) => {
-    setSize(newSize)
     onOpen()
   }
 
