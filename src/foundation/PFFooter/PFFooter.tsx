@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react'
 import PFHeading from "../PFHeading/PFHeading";
 // import PFParagraph from "../PFParagraph/PFParagraph";
 import { PFLink } from "../PFLink/PFLink";
-import { FaInstagram, FaSpotify } from "react-icons/fa";
+import {  FaSpotify } from "react-icons/fa";
 import { SiTiktok } from "react-icons/si";
 
 
