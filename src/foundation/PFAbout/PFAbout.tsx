@@ -37,7 +37,7 @@ export const PFAbout = ({ children }: PFAboutProps) => {
               width: "fit-content",
               borderRadius: "8px"
             }} _hover={{ boxShadow: "none" }}>
-        <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal>
+        <PFLink href='https://www.tiktok.com/@katrogersmusic?lang=en' isExternal>
 
               <PFButton variant="ghost" size="size3" stylesProps={{
                 width: "fit-content",

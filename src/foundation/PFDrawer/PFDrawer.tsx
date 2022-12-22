@@ -56,7 +56,7 @@ export default function PFDrawer({ drawerSize }: PFDrawerProps) {
           <Divider></Divider>
           <DrawerBody>
             <Box mt="40px" d="flex" gap="40px" justifyContent={"end"}>
-              <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal><FaInstagram size="30px" /></PFLink>
+              {/* <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal><FaInstagram size="30px" /></PFLink> */}
               <PFLink href='#spotify'><FaSpotify size="30px" /> </PFLink>
               {/* <PFLink  href='#' isExternal><FaYoutube size="30px" /></PFLink> */}
               <PFLink href='https://www.tiktok.com/@katrogersmusic?lang=en' isExternal><SiTiktok size="30px" /></PFLink>

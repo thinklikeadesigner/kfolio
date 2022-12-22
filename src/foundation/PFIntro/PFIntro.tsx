@@ -37,7 +37,7 @@ export const PFIntro = ({ children }: PFIntroProps) => {
               width: "fit-content",
               borderRadius: "8px"
             }} _hover={{ boxShadow: "none" }}>
-        <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal>
+        <PFLink href='https://www.tiktok.com/@katrogersmusic?lang=en'  isExternal>
 
               <PFButton variant="ghost" size="size4" hover={{
                 _before: {
@@ -57,7 +57,7 @@ export const PFIntro = ({ children }: PFIntroProps) => {
                 </PFLink>
             </Box>
             <Box w="24px"></Box>
-          <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal>
+          <PFLink href='https://www.tiktok.com/@katrogersmusic?lang=en' isExternal>
 
             <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
             ><PFParagraph variant="boton" text="Listen" />  </PFButton></PFLink>

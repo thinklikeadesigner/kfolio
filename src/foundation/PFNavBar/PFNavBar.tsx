@@ -35,13 +35,13 @@ export default function PFNavBar({ color, stylesProps }: PFNavBarProps) {
         </Box>
 
         <Box d="flex" gap="40px">
-          <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal><FaInstagram size="30px" /></PFLink>
+          {/* <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal><FaInstagram size="30px" /></PFLink> */}
           <PFLink href='#spotify'><FaSpotify size="30px" /> </PFLink>
           {/* <PFLink  href='#' isExternal><FaYoutube size="30px" /></PFLink> */}
           <PFLink href='https://www.tiktok.com/@katrogersmusic?lang=en' isExternal><SiTiktok size="30px" /></PFLink>
         </Box>
         <Box >
-        <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal>
+        <PFLink href='https://www.tiktok.com/@katrogersmusic?lang=en'  isExternal>
 
           <PFButton variant="solid" size="size5" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
           ><PFParagraph variant="boton" text="Check out my Music!" /> </PFButton>

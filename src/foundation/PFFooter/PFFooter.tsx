@@ -40,7 +40,7 @@ export const PFFooter = (
           <PFLink href='#spotify'><FaSpotify size="30px" style={{ marginRight: "20px" }} /> </PFLink>
           <Box h="20px" >
           </Box>
-          <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal><FaInstagram size="30px" style={{ marginRight: "20px" }} /></PFLink>
+          {/* <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal><FaInstagram size="30px" style={{ marginRight: "20px" }} /></PFLink> */}
           <Box h="20px" >
           </Box>
           <PFLink href='https://www.tiktok.com/@katrogersmusic?lang=en' isExternal><SiTiktok size="30px" style={{ marginRight: "20px" }} /></PFLink>
