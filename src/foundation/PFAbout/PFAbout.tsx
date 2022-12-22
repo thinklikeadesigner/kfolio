@@ -6,6 +6,7 @@ import PFHeading from "../PFHeading/PFHeading";
 import PFParagraph from "../PFParagraph/PFParagraph";
 import PFButton from "../PFButton/PFButton";
 import PFImage from "../PFImage/PFImage";
+import { PFLink } from "../PFLink/PFLink";
 // import { PFGallery } from "../PFGallery/PFGallery";
 
 
@@ -36,6 +37,8 @@ export const PFAbout = ({ children }: PFAboutProps) => {
               width: "fit-content",
               borderRadius: "8px"
             }} _hover={{ boxShadow: "none" }}>
+        <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal>
+
               <PFButton variant="ghost" size="size3" stylesProps={{
                 width: "fit-content",
               }}
@@ -53,7 +56,8 @@ export const PFAbout = ({ children }: PFAboutProps) => {
                     maskComposite: "exclude"
                   }
                 }}
-              ><PFParagraph variant="boton" text="More about me" />  </PFButton>
+                ><PFParagraph variant="boton" text="More about me" />  </PFButton>
+                </PFLink>
             </Box>
           </Box>
         </Box>

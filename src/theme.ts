@@ -114,15 +114,20 @@ const customTheme = extendTheme({
         },
       },
       baseStyle: {
+        _hover: {
+          textDecoration: "none"
+        },
         _focus: {
           boxShadow: "none",
+          textDecoration: "none"
           },
               fontFamily: "DM Sans",
           fontStyle: "normal",
           fontWeight: 500,
           fontSize: "16px",
           lineHeight: "16px",
-          color: "blanco"
+        color: "blanco",
+          textDecoration: "none"
         }
     },
     Image: {

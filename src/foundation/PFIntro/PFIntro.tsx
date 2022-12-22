@@ -6,6 +6,7 @@ import { Box, Heading } from '@chakra-ui/react'
 import PFParagraph from "../PFParagraph/PFParagraph";
 import PFButton from "../PFButton/PFButton";
 import { PFSpotify } from "../PFSpotify/PFSpotify";
+import { PFLink } from "../PFLink/PFLink";
 
 
 type PFIntroProps = {
@@ -36,6 +37,7 @@ export const PFIntro = ({ children }: PFIntroProps) => {
               width: "fit-content",
               borderRadius: "8px"
             }} _hover={{ boxShadow: "none" }}>
+        <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal>
 
               <PFButton variant="ghost" size="size4" hover={{
                 _before: {
@@ -51,11 +53,14 @@ export const PFIntro = ({ children }: PFIntroProps) => {
                   maskComposite: "exclude"
                 }
               }}
-              ><PFParagraph variant="boton" text="Download CV" />  </PFButton>
+                ><PFParagraph variant="boton" text="Download CV" />  </PFButton>
+                </PFLink>
             </Box>
             <Box w="24px"></Box>
+          <PFLink href='https://www.instagram.com/katrogersmusic/' isExternal>
+
             <PFButton variant="solid" size="size7" hover={{ bg: "linear-gradient(270deg, #1bd760 10.81%, #59EBFF 100%)" }}
-            ><PFParagraph variant="boton" text="Listen" />  </PFButton>
+            ><PFParagraph variant="boton" text="Listen" />  </PFButton></PFLink>
           </Box>
         </Box>
         <PFSpotify />
